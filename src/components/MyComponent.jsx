@@ -1,9 +1,9 @@
-import "../css/style.css";
+import styles from "./MyComponent.module.css";
 
 export default function MyComponent() {
   return (
-    <div className="header">
-      <h1>Todo List</h1>
+    <div>
+      <h1 className={styles.header}>Todo List</h1>
     </div>
   );
 }
